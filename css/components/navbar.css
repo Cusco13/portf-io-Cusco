@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--white);
+}
+
+.navbar .navbar__content {
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar__content .navbar__links li {
+    display: inline-block;
+}
+.navbar .navbar__content .navbar__links li:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
+.navbar .navbar__content .navbar__links a {
+    padding: 1rem;
+    display: inline-block;
+}
+
+.navbar .navbar__content .navbar__links a:hover {
+    color: var(--tertiary-color);
+}
